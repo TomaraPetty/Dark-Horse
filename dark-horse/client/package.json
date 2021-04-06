@@ -1,0 +1,19 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomaraPetty/Dark-Horse.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TomaraPetty/Dark-Horse/issues"
+  },
+  "homepage": "https://github.com/TomaraPetty/Dark-Horse/"
+}
