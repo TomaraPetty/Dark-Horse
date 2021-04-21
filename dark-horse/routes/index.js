@@ -1,9 +1,11 @@
 const path = require('path');
 const router = require('express').Router();
-const apiRoutes = require('./api/bands');
+const userRoutes = require('./api/user');
+const bandRoutes = require('./api/band')
 
 // API Routes
-router.use('/api', apiRoutes);
+router.use('/api', userRoutes);
+router.use('/api', bandRoutes);
 
 // If no API routes are hit, send the React app
 router.use(function (req, res) {
