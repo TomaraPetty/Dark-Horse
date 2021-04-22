@@ -1,4 +1,5 @@
 import React from "react";
+import MarkerClusterGroup from 'react-leaflet-markercluster';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 import useSwr from "swr";
 import "./map.css"
@@ -16,23 +17,24 @@ export default function leafMap() {
     return (
         //since this map is set to London, Ill have to change it to an object that takes in users inputs and changes with state
         <MapContainer center={[52.6376, -1.135171]} zoom={12}>
-            {/* This gives us the design of the map. There different stylings if we dont like this one */}
             <TileLayer
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                 attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
             />
-            {/*This maps through the json provided in the url and creates a pin on the map. Once the user data is provide, Ill plug it in and map it like so */}
-            {crimes.map(crime => (
-                <Marker
-                    key={crime.id}
-                    position={[crime.location.latitude, crime.location.longitude]}
-                >
-                    <Popup>
-                        A pretty CSS3 popup. <br /> Easily customizable.
+            <MarkerClusterGroup zoomToBoundsOnClick={true} animate={true} showCoverageOnHover={true} removeOutsideVisibleBounds={true}>
+                {crimes.map(crime => (
+                    <Marker
+                        key={crime.id}
+                        position={[crime.location.latitude, crime.location.longitude]}
+                    >
+                        <Popup>
+                            A pretty CSS3 popup. <br /> Easily customizable.
       </Popup>
-                </Marker>
+                    </Marker>
 
-            ))}
+                ))}
+            </MarkerClusterGroup>
+
         </MapContainer>
     );
 }
