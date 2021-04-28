@@ -1,4 +1,6 @@
 import React from "react";
+import "../styles/SearchBar.css";
+
 
 function SearchBar(prop) {
     return (
@@ -14,7 +16,7 @@ function SearchBar(prop) {
                 onChange={prop.handleInputChange}
                 onKeyPress={prop.handleKeyPress}
            />
-           <button onClick={prop.handleSubmit}>Search</button>
+           <button className="searchtbn" onClick={prop.handleSubmit}>Search</button>
        </div> 
     )
 }

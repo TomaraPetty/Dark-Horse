@@ -1,0 +1,13 @@
+.searchbox {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.searchtbn {
+    margin-left: 5px;
+}
+
+.search-control {
+    padding: 5px;
+    width: 500px;
+}
