@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 import Api from "../Util/Api";
 import LeafMap from "../Map/index";
-import SearchForm from "./SearchForm";
+import SearchForm from "../MapSearch/SearchForm";
 import "./map.css"
 
 
