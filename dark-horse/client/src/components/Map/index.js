@@ -7,6 +7,7 @@ import './map.css';
 const fetcher = (...args) => fetch(...args).then((response) => response.json());
 
 //The url currently provide is of a crime report in London lol. Once I have the user data ill be able to plug that in and change the map
+
 export default function LeafMap() {
   const url =
     'https://data.police.uk/api/crimes-street/all-crime?lat=52.629729&lng=-1.131592&date=2019-10';
