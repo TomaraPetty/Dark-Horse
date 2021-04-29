@@ -15,11 +15,34 @@ class Firebase {
     };
     // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
-    firebase.analytics();
+    this.auth = firebase.auth();
+    this.firestore = firebase.firestore();
   }
   isInitialized() {
     return new Promise((resolve) => {
       this.auth.onAuthStateChanged(resolve);
     });
   }
+  login(email, password) {
+    return this.auth.signInWithEmailAndPassword(email, password);
+  }
+  logout() {
+    return this.auth.signOut();
+  }
+  currentUser() {
+    return new Promise((resolve) => {
+      this.auth.onAuthStateChanged(resolve);
+    });
+  }
 }
+
+export default new Firebase();
+
+export const auth = firebase.auth();
+
+const provider = new firebase.auth.GoogleAuthProvider();
+provider.setCustomParameters({ prompt: 'select_account' });
+export const signInWithGoogle = () => {
+  auth.signInWithPopup(provider);
+  console.log('signed in with email!');
+};
