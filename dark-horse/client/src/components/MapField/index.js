@@ -19,7 +19,7 @@ class MapField extends Component {
     searchApi = query => {
         Api.search(query)
             // .then((response) => response.json())
-            .then(res => this.setState({ results: [res.summary.geoBias.lat, res.summary.geoBias.lon] }, console.log("Res: ", res))
+            .then(res => this.setState({ results: [res.results[0].position.lat, res.results[0].position.lon] })
                 , console.log("State", this.state)
             )
             .catch(err => console.log(err))
