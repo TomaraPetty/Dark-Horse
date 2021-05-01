@@ -40,9 +40,30 @@ export default new Firebase();
 
 export const auth = firebase.auth();
 
-const provider = new firebase.auth.GoogleAuthProvider();
-provider.setCustomParameters({ prompt: 'select_account' });
+const googleProvider = new firebase.auth.GoogleAuthProvider();
+googleProvider.setCustomParameters({ prompt: 'select_account' });
 export const signInWithGoogle = () => {
-  auth.signInWithPopup(provider);
+  auth.signInWithPopup(googleProvider);
   console.log('signed in with email!');
+};
+
+const facebookProvider = new firebase.auth.FacebookAuthProvider();
+facebookProvider.setCustomParameters({ prompt: 'select_account' });
+export const signInWithFacebook = () => {
+  auth.signInWithPopup(facebookProvider);
+  console.log('signed in with facebook!');
+};
+
+const twitterProvider = new firebase.auth.TwitterAuthProvider();
+twitterProvider.setCustomParameters({ prompt: 'select_account' });
+export const signInWithTwitter = () => {
+  auth.signInWithPopup(twitterProvider);
+  console.log('signed in with twitter!');
+};
+
+const yahooProvider = new firebase.auth.OAuthProvider('yahoo.com');
+yahooProvider.setCustomParameters({ prompt: 'select_account' });
+export const signInWithYahoo = () => {
+  auth.signInWithPopup(yahooProvider);
+  console.log('signed in with yahoo!');
 };

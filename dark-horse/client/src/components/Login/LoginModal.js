@@ -1,6 +1,11 @@
 import React, { useEffect, useContext, useState } from 'react';
 import firebase from '../Firebase/Firebase';
-import { signInWithGoogle } from '../Firebase/Firebase';
+import {
+  signInWithGoogle,
+  signInWithFacebook,
+  signInWithTwitter,
+  signInWithYahoo,
+} from '../Firebase/Firebase';
 import googleImg from '../../images/google.png';
 import facebookImg from '../../images/facebook.png';
 import twitterImg from '../../images/twitter.png';
@@ -33,17 +38,17 @@ const LoginModal = (props) => {
             Login with Google
           </button>
           <br></br>
-          <button className="facebook">
+          <button className="facebook" onClick={signInWithFacebook}>
             <img className="img-login" src={facebookImg}></img>
             Login with Facebook
           </button>
           <br></br>
-          <button className="twitter">
+          <button className="twitter" onClick={signInWithTwitter}>
             <img className="img-login" src={twitterImg}></img>
             Login with Twitter
           </button>
           <br></br>
-          <button className="yahoo">
+          <button className="yahoo" onClick={signInWithYahoo}>
             <img className="img-login" src={yahooImg}></img>
             Login with Yahoo
           </button>
