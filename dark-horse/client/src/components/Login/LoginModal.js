@@ -1,13 +1,13 @@
 import React, { useEffect, useContext, useState } from 'react';
 import firebase from '../Firebase/Firebase';
 import { signInWithGoogle } from '../Firebase/Firebase';
-// import { auth } from '../Firebase/Firebase';
+import googleImg from '../../images/google.png';
+import facebookImg from '../../images/facebook.png';
+import twitterImg from '../../images/twitter.png';
+import yahooImg from '../../images/yahoo.png';
 import './styles.css';
 
 const LoginModal = (props) => {
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
-
   if (!props.show) {
     return null;
   }
@@ -25,38 +25,32 @@ const LoginModal = (props) => {
           ×
         </button>
         <div id="modal-header">
-          <h4>Sign In</h4>
+          <h3>Login</h3>
         </div>
-        <form onSubmit={(e) => e.preventDefault() && false}>
-          <input
-            type="email"
-            placeholder="Email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-          />
+        <div className="logins">
+          <button className="google" onClick={signInWithGoogle}>
+            <img className="img-login" src={googleImg}></img>
+            Login with Google
+          </button>
           <br></br>
-          <input
-            type="password"
-            placeholder="Password"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-          />
+          <button className="facebook">
+            <img className="img-login" src={facebookImg}></img>
+            Login with Facebook
+          </button>
           <br></br>
-          <input id="submit" type="submit" value="SIGN IN" onClick={login} />
-          <button onClick={signInWithGoogle}>Login with Google</button>
-        </form>
+          <button className="twitter">
+            <img className="img-login" src={twitterImg}></img>
+            Login with Twitter
+          </button>
+          <br></br>
+          <button className="yahoo">
+            <img className="img-login" src={yahooImg}></img>
+            Login with Yahoo
+          </button>
+        </div>
       </div>
     </div>
   );
-  async function login() {
-    try {
-      await firebase.login(email, password);
-      window.location.href = '/';
-      console.log('logged in');
-    } catch (error) {
-      alert(error.message);
-    }
-  }
 };
 
 export default LoginModal;
