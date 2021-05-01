@@ -1,8 +1,9 @@
 import React, { useState } from "react";
-import SearchBar from "../../components/SearchBar";
 import Wrapper from "../../components/Wrapper";
-import CallingAllBands from "../../components/CallingAllBands";
+import SearchBar from "../../components/SearchBar";
 import BandCard from "../../components/BandCard";
+import CallingAllBands from "../../components/CallingAllBands";
+import Footer from "../../components/Footer";
 import BandInfo from "../../../src/utils/bands.json";
 import "../../../src/styles/Home.css";
 
@@ -39,6 +40,7 @@ const Home = () => {
            <h1>Check out these trending campaigns</h1>
             <BandCard />
             <CallingAllBands />
+            <Footer />
         </Wrapper>
 
     )
