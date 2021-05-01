@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import SearchBar from '../../components/SearchBar';
 import Wrapper from '../../components/Wrapper';
@@ -38,5 +39,6 @@ const Home = () => {
     </Wrapper>
   );
 };
+
 
 export default Home;
