@@ -1,22 +1,29 @@
-import React from "react";
-import { Card, CardContent } from '@material-ui/core';
+import React from 'react';
+import GridList from '@material-ui/core/GridList';
+import GridListTile from '@material-ui/core/GridListTile';
+import GridListTileBar from '@material-ui/core/GridListTileBar';
+import BandInfo from "../../src/utils/bands.json";
+import "../styles/BandCard.css";
 
 
 
-function BandCard() {
-    return (
-        <Card classname="band-card">
-            <CardContent>
-            {/* picture of bands */}
-            {/* make cards clickable to take to band page */}
-            </CardContent>
-        </Card>
-    )
+const BandCard = () => {
+
+  return (
+    <div className="card">
+      <GridList className="bandcover" cols={4}>
+        {BandInfo.map((tile) => (
+          <GridListTile key={tile.name}>
+            <img src={tile.img} alt={tile.name} className="bandimg" />
+            <GridListTileBar
+            className="cardbar">
+                </GridListTileBar>
+          </GridListTile>
+        ))}
+      </GridList>
+    </div>
+  );
 }
-
-
-
-
 
 
 

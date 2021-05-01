@@ -1,0 +1,28 @@
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow: hidden;
+    width: 'auto';
+    height: 'auto';
+    background-color: transparent;
+}
+
+.cardbar {
+    background-color: transparent !important;
+}
+
+.MuiGridListTile-root {
+    height: 400px !important;
+    width: 400px !important;
+    padding: 10px !important;
+
+}
+
+.bandcover {
+    justify-content: center;
+}
+
+.bandimg {
+    width: fit-content;
+}
