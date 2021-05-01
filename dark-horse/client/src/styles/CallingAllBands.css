@@ -22,18 +22,29 @@
 
 .title {
     font-size: 35px !important;
+    color: white;
 }
 
 .callbands {
     max-width: 800px !important;
+    padding: 50px !important;
 }
+
 
 .MuiTypography-body2 {
     font-size: 16px !important;
+    color: white;
 }
 
 .MuiButton-contained {
-    color: white !important;
+    color: black;
+    background-color: white;
+    
+}
+
+.paper {
+    margin-top: 50px !important;
     background-color: black !important;
 }
+
 
