@@ -15,7 +15,9 @@ function App() {
     });
   });
   return firebaseInitialized !== false ? (
-  <div>
+  
+    <Router>
+      <div>
 
   <Nav />
 
@@ -23,10 +25,11 @@ function App() {
 
   {/* <LeafMap /> */}
 
-</div>
 
+  </div>
 </Router>
   ): (<div id="loader"></div>);
+  
 }
 
 export default App;
