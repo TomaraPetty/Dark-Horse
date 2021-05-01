@@ -9,52 +9,99 @@
   align-items: center;
   justify-content: center;
 }
+
 #modal-content {
   width: 400px;
   height: 500px;
   padding: 10px 10px 0px 10px;
   background-color: white;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 1.5em;
+}
+.close {
+  border: none;
+  background-color: white;
+  margin-left: 92%;
+  font-size: 30px;
+}
+
+button:hover {
+  cursor: pointer;
 }
 #modal-header {
-  padding: 20px;
   text-align: center;
   color: black;
-}
-
-h4 {
   font-size: 40px;
+  padding: 10px;
 }
 
-form {
-  background-color: #ffffff;
+.logins {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   padding: 0 50px;
-  margin-top: 90px;
-  height: 200px;
   text-align: center;
 }
 
-input {
-  background-color: #eee;
+.google {
+  background-color: white;
+  border: solid;
+  border-width: 1px;
+  border-color: gray;
+  padding: 5px;
+  margin-top: 5px;
+  width: 80%;
+  font-size: large;
+  justify-content: center;
+  text-align: center;
+  color: gray;
+  position: relative;
+  bottom: 20px;
+}
+.facebook {
+  background-color: #4267b2;
   border: none;
-  padding: 12px 15px;
-  margin: 8px 0;
-  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+  width: 80%;
+  font-size: large;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  position: relative;
+  bottom: 20px;
+}
+.twitter {
+  background-color: #1da1f2;
+  border: none;
+  padding: 5px;
+  margin-top: 5px;
+  width: 80%;
+  font-size: large;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  position: relative;
+  bottom: 20px;
 }
 
-#submit {
-  border-radius: 20px;
-  border: 1px solid #008cba;
-  background-color: #008cba;
-  color: #ffffff;
-  font-size: 12px;
-  font-weight: bold;
-  padding: 12px 45px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  transition: transform 80ms ease-in;
-  width: 50%;
+.yahoo {
+  background-color: #720e9e;
+  border: none;
+  padding: 5px;
+  margin-top: 5px;
+  width: 80%;
+  font-size: large;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  position: relative;
+  bottom: 20px;
+}
+
+.img-login {
+  width: 20px;
+  height: 20px;
+  padding-right: 10px;
 }
