@@ -1,12 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
-import "../../styles/Nav.css";
-
+import LoginModal from '../Login/LoginModal';
+import firebase from '../Firebase/Firebase';
+import '../../styles/Nav.css';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -22,6 +23,7 @@ const useStyles = makeStyles((theme) => ({
 
 export default function ButtonAppBar() {
   const classes = useStyles();
+  const [show, setShow] = useState(false);
 
   return (
     <div className={classes.root} id="bg-img">
@@ -29,18 +31,33 @@ export default function ButtonAppBar() {
         <div class="topnav">
           <AppBar position="static">
             <Toolbar>
-              <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
-              </IconButton>
+              <IconButton
+                edge="start"
+                className={classes.menuButton}
+                color="inherit"
+                aria-label="menu"
+              ></IconButton>
               <Typography variant="h6" className={classes.title}>
                 Dark Horse
-          </Typography>
-              <Button color="inherit">Login</Button>
+              </Typography>
+              <Button onClick={() => setShow(true)} color="inherit">
+                Login
+              </Button>
               <Button color="inherit">Sign Up</Button>
               <Button color="inherit">For Bands</Button>
+              <Button onClick={logout} color="inherit">
+                Logout
+              </Button>
+              <LoginModal onClose={() => setShow(false)} show={show} />
             </Toolbar>
           </AppBar>
         </div>
       </div>
     </div>
   );
+  async function logout() {
+    await firebase.logout();
+    window.location.href = '/';
+    console.log('logged out');
+  }
 }
