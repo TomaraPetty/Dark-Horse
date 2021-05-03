@@ -1,8 +1,6 @@
 import React, { Component } from "react";
-
 import Api from "../Util/Api";
-import LeafMap from "../Map/index";
-import SearchForm from "../MapSearch/SearchForm";
+import MapClass from "../Map/index";
 import "./map.css"
 
 
@@ -46,23 +44,46 @@ class MapField extends Component {
 
 
 
+
     // When the form is submitted, search the Api for `this.state.search`
     handleFormSubmit = event => {
         event.preventDefault();
         this.searchApi(this.state.search);
 
     };
+
     render() {
         return (
             <div>
-                <SearchForm
+                <form>
+                    <div className="form-group">
+                        <label htmlFor="search">Search:</label>
+                        <input
+                            onChange={this.handleInputChange}
+                            value={this.state.search}
+                            name="search"
+                            type="text"
+                            className="form-control"
+                            placeholder="Ex: Los Angeles, CA"
+                            id="search"
+                        />
+                        <button onClick={this.handleFormSubmit} className="btn btn-primary mt-3">
+                            Search
+        </button>
+                    </div>
+                </form>
+                {/* <SearchForm
                     search={this.state.search}
                     handleFormSubmit={this.handleFormSubmit}
                     handleInputChange={this.handleInputChange}
-                />
-                <LeafMap
+                /> */}
+                <MapClass
+
                     lat={this.state.coord[0]}
-                    lon={this.state.coord[1]} />
+                    lon={this.state.coord[1]}
+
+                />
+
             </div>
         )
     }
