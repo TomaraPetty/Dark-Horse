@@ -1,29 +1,41 @@
 
    [
         {
+            "id": 0,
             "name": "Connector Compass",
-            "img": "https://images.unsplash.com/photo-1569617084133-26942bb441f2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGdyb3VwJTIwb2YlMjBwZW9wbGV8ZW58MHwwfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+            "img": "https://images.unsplash.com/photo-1569617084133-26942bb441f2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGdyb3VwJTIwb2YlMjBwZW9wbGV8ZW58MHwwfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+            "video": "https://www.youtube.com/watch?v=fzeWc3zh01g",
+            "bio": "Connector Compass is an indie band that rocks hard.",
+            "location": "Los Angeles, CA",
+            "about": "We are Connector Compass and we want to come play music for you at your local venue!"
         }, {
+            "id": 1,
             "name": "Quiet Lion",
             "img": "https://images.unsplash.com/photo-1511988617509-a57c8a288659?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGdyb3VwJTIwb2YlMjBwZW9wbGV8ZW58MHwwfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
 
         }, {
+            "id": 2,
             "name": "Pescado Mejor",
             "img": "https://images.unsplash.com/photo-1549057446-9f5c6ac91a04?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGdyb3VwJTIwb2YlMjBwZW9wbGV8ZW58MHwwfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
         }, {
+            "id": 3,
             "name": "A.P.I.",
             "img": "https://images.unsplash.com/photo-1498661367879-c2085689eed4?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTN8fGdyb3VwJTIwb2YlMjBwZW9wbGV8ZW58MHwwfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
 
         }, {
+            "id": 4,
             "name": "The Dirty Tees",
             "img": "https://images.unsplash.com/photo-1574255155611-e864ecb66c0f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=925&q=80"
         }, {
+            "id": 5,
             "name": "37,21",
             "img": "https://images.unsplash.com/photo-1612126752176-52284f4f2851?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTE3fHxncm91cCUyMG9mJTIwcGVvcGxlfGVufDB8MHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
         }, {
+            "id": 6,
             "name": "Whisper Wind",
             "img": "https://images.unsplash.com/photo-1467779009031-53938b78ca38?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGluZGllJTIwYmFuZHxlbnwwfDB8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
         }, {
+            "id": 7,
             "name": "Sunrise Moon",
             "img": "https://images.unsplash.com/photo-1523897858936-6686b96d0c48?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Z2lybCUyMGdyb3VwfGVufDB8MHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
         }

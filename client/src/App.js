@@ -3,6 +3,7 @@ import Firebase from './components/Firebase/Firebase';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Nav from './components/Nav';
 import Home from './pages/Home';
+import BandProfile from './pages/BandProfile';
 import LeafMap from './components/Map';
 
 function App() {
@@ -18,6 +19,8 @@ function App() {
         <Nav />
 
         <Route exact path={['/', '/home']} component={Home} />
+        <Route path="/bandprofile" component={BandProfile} />
+        <Route path="/profile/:name" component={BandProfile} />
 
         {/* <LeafMap /> */}
       </div>
