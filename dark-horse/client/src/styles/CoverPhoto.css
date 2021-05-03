@@ -1,0 +1,9 @@
+.coverpic {
+    width: 100%;
+    height: 800px;
+}
+
+.MuiAppBar-colorPrimary {
+    color: black !important;
+    background-color: transparent !important;
+}
