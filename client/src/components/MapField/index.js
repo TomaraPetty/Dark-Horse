@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import Api from "../Util/Api";
+import Api from "../../Utils/mapApi";
 import MapClass from "../Map/index";
-import "./map.css"
+import "../Map/map.css";
 
 
 

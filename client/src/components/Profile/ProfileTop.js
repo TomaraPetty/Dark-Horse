@@ -10,6 +10,9 @@ import { grey } from '@material-ui/core/colors';
 import BandInfo from '../../Utils/bands.json';
 
 const ProfileTop = () => {
+  
+  
+
   return (
     <div className="profile-top bg-primary p-2">
     {BandInfo.map((profile) => (

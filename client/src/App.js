@@ -19,7 +19,7 @@ function App() {
         <Nav />
 
         <Route exact path={['/', '/home']} component={Home} />
-        <Route path="/bandprofile" component={BandProfile} />
+        <Route exact path="/bandprofile" component={BandProfile} />
         <Route path="/profile/:name" component={BandProfile} />
 
         {/* <LeafMap /> */}
