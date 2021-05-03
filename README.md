@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-Click here to see the application: https://dashboard.heroku.com/apps/darkhorsetours
+Click here to see the application: https://darkhorsetours.herokuapp.com/
 
 ## Available Scripts
 
