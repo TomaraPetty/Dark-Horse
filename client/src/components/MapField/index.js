@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Api from "../../Utils/mapApi";
 import MapClass from "../Map/index";
 import "../Map/map.css";
+import '../../components/Profile/styles.css'
 
 
 
@@ -54,7 +55,7 @@ class MapField extends Component {
 
     render() {
         return (
-            <div>
+            <div className='profile-about bg-light p-2'>
                 <form>
                     <div className="form-group">
                         <label htmlFor="search">Search:</label>
