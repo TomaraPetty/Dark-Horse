@@ -8,6 +8,7 @@ import IconButton from '@material-ui/core/IconButton';
 import LoginModal from '../Login/LoginModal';
 import firebase from '../Firebase/Firebase';
 import '../../styles/Nav.css';
+import CoverPhoto from "../CoverPhoto";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -37,7 +38,7 @@ export default function ButtonAppBar() {
                 color="inherit"
                 aria-label="menu"
               ></IconButton>
-              <Typography variant="h6" className={classes.title}>
+              <Typography variant="h6" className={classes.title} id="brandtitle">
                 Dark Horse
               </Typography>
               <Button onClick={() => setShow(true)} color="inherit">
@@ -53,6 +54,7 @@ export default function ButtonAppBar() {
           </AppBar>
         </div>
       </div>
+      <CoverPhoto />
     </div>
   );
   async function logout() {
