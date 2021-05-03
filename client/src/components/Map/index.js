@@ -7,13 +7,6 @@ const MapClass = (props) => {
 
   let coordinates = [props.lat, props.lon];
 
-  // console.log("setCoords: ", setCoords)
-
-  // useEffect(() => {
-  //     handleCoords()
-  // })
-
-
   function SetViewOnClick({ coords }) {
     const map = useMap();
     map.setView(coords, map.getZoom());
@@ -24,6 +17,7 @@ const MapClass = (props) => {
     //since this map is set to London, Ill have to change it to an object that takes in users inputs and changes with state
     <MapContainer center={coordinates} zoom={12} onChange={props.handleCoords}>
 
+      {/* This changes the map styling */}
       <TileLayer
         url='https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png'
         attribution='&copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'

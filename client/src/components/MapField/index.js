@@ -72,11 +72,6 @@ class MapField extends Component {
         </button>
                     </div>
                 </form>
-                {/* <SearchForm
-                    search={this.state.search}
-                    handleFormSubmit={this.handleFormSubmit}
-                    handleInputChange={this.handleInputChange}
-                /> */}
                 <MapClass
 
                     lat={this.state.coord[0]}
