@@ -10,16 +10,17 @@ import "./map.css"
 class MapField extends Component {
     state = {
         search: "",
-        results: [],
+        coord: [34.05224, -118.24334],
+
     }
 
     componentDidMount() {
-        this.searchApi("Los Angeles, CA")
+        this.searchApi("Los Angeles, CA");
     }
     searchApi = query => {
         Api.search(query)
             // .then((response) => response.json())
-            .then(res => this.setState({ results: [res.results[0].position.lat, res.results[0].position.lon] })
+            .then(res => this.setState({ coord: [res.results[0].position.lat, res.results[0].position.lon] })
                 , console.log("State", this.state)
             )
             .catch(err => console.log(err))
@@ -29,18 +30,27 @@ class MapField extends Component {
     }
 
     handleInputChange = event => {
+
         const name = event.target.name;
         const value = event.target.value;
+        // const newResults = this.state.newResults;
         this.setState({
-            [name]: value
+            [name]: value,
+            // newResults: name,
+            // results: newResults
+
+
         });
+
     };
+
 
 
     // When the form is submitted, search the Api for `this.state.search`
     handleFormSubmit = event => {
         event.preventDefault();
         this.searchApi(this.state.search);
+
     };
     render() {
         return (
@@ -50,7 +60,9 @@ class MapField extends Component {
                     handleFormSubmit={this.handleFormSubmit}
                     handleInputChange={this.handleInputChange}
                 />
-                <LeafMap />
+                <LeafMap
+                    lat={this.state.coord[0]}
+                    lon={this.state.coord[1]} />
             </div>
         )
     }
