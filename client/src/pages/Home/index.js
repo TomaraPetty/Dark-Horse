@@ -1,5 +1,6 @@
 
 import React, { useState } from 'react';
+import CoverPhoto from "../../components/CoverPhoto";
 import SearchBar from '../../components/SearchBar';
 import Wrapper from '../../components/Wrapper';
 import CallingAllBands from '../../components/CallingAllBands';
@@ -29,6 +30,7 @@ const Home = () => {
 
   return (
     <Wrapper>
+          <CoverPhoto />
       <SearchBar
         handleInputChange={handleSearchChange}
         search={setDataSearch.searchedBands}
