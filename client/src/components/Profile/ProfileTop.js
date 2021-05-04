@@ -9,10 +9,9 @@ import YouTubeIcon from '@material-ui/icons/YouTube';
 import { grey } from '@material-ui/core/colors';
 import BandInfo from '../../Utils/bands.json';
 import MapField from '../MapField';
+import Box from '@material-ui/core/Box';
 
 const ProfileTop = () => {
-  
-  
 
   return (
     <div className="profile-top bg-primary p-2">
@@ -41,6 +40,8 @@ const ProfileTop = () => {
         </a>
       </Grid>
 
+      <br/>
+
       <div className='profile-about bg-light p-2'>
       <Fragment>
         <h2 className='text-primary'>About</h2>
@@ -50,18 +51,27 @@ const ProfileTop = () => {
         <div className='line' />
         <img style={{ width: 700 }} className="progress-bar" src="https://miro.medium.com/max/2520/0*A9Ke7sg6rCEq51FG.jpeg" alt="progress bar"/>
       </Fragment>
+
       </div>
-      
+
+      <div className='profile-about bg-light p-2'>
+
+      <Fragment>
+        <h2 className='text-primary'>Promo Video</h2>
+        <iframe width="560" height="315" src={profile.video} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </Fragment>
+
+
+      </div>
+      <div className='profile-about bg-light p-2'>
+      <h2 className='text-primary'>{profile.name}'s Live Campaign</h2>
       <MapField />
-
-    
+      
+      </div>
+      <br/><br/>
       </div>
 
-
-      
-    ))}
-      
-      
+    ))}   
       
     </div>
   );

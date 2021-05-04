@@ -23,7 +23,7 @@ const MapClass = (props) => {
   return (
     //since this map is set to London, Ill have to change it to an object that takes in users inputs and changes with state
     <MapContainer center={coordinates} zoom={12} onChange={props.handleCoords}>
-
+    
       <TileLayer
            url='https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png'
                 attribution='&copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
