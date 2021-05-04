@@ -1,10 +1,12 @@
 
 import React, { useState } from 'react';
+import CoverPhoto from "../../components/CoverPhoto";
 import SearchBar from '../../components/SearchBar';
 import Wrapper from '../../components/Wrapper';
 import CallingAllBands from '../../components/CallingAllBands';
 import BandCard from '../../components/BandCard';
 import BandInfo from '../../Utils/bands.json';
+import Footer from "../../components/Footer";
 import '../../../src/styles/Home.css';
 
 const Home = () => {
@@ -21,6 +23,10 @@ const Home = () => {
     });
   };
 
+  // const handleBandProfile = (id) => {
+  //   if(id.key === 'Enter')
+  // }
+
   // const handleKeyPress = (event) => {
   //     if(event.key === 'Enter') {
 
@@ -29,6 +35,7 @@ const Home = () => {
 
   return (
     <Wrapper>
+          <CoverPhoto />
       <SearchBar
         handleInputChange={handleSearchChange}
         search={setDataSearch.searchedBands}
@@ -36,6 +43,7 @@ const Home = () => {
       <h1>Check out these trending campaigns</h1>
       <BandCard />
       <CallingAllBands />
+      <Footer />
     </Wrapper>
   );
 };

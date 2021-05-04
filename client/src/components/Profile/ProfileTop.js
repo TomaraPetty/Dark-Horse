@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 import "./styles.css";
 import Grid from '@material-ui/core/Grid';
 import LanguageIcon from '@material-ui/icons/Language';
@@ -8,8 +8,12 @@ import TwitterIcon from '@material-ui/icons/Twitter';
 import YouTubeIcon from '@material-ui/icons/YouTube';
 import { grey } from '@material-ui/core/colors';
 import BandInfo from '../../Utils/bands.json';
+import MapField from '../MapField';
 
 const ProfileTop = () => {
+  
+  
+
   return (
     <div className="profile-top bg-primary p-2">
     {BandInfo.map((profile) => (
@@ -18,11 +22,8 @@ const ProfileTop = () => {
       <h1 className="large">{profile.name}</h1>
       <p className="lead">Cast your vote to bring {profile.name} to YOU!</p>
       <p>{profile.location}</p>
-      </div>
-    ))}
-      
-      
-      <Grid container direction="row" justify="center" alignItems="center">
+
+    <Grid container direction="row" justify="center" alignItems="center">
         <a href='#' target="_blank" rel="noopener noreferrer">
           <LanguageIcon fontSize="large" style={{ color: grey[50] }} />
         </a>
@@ -39,6 +40,27 @@ const ProfileTop = () => {
           <YouTubeIcon fontSize="large" style={{ color: grey[50] }} />
         </a>
       </Grid>
+
+      <div className='profile-about bg-light p-2'>
+      <Fragment>
+        <h2 className='text-primary'>About</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni similique necessitatibus vero iste aliquid, magnam neque voluptatibus fuga perferendis molestias ex dolores praesentium unde mollitia placeat nisi repudiandae tenetur dolore!</p>
+        <div className='line' />
+        <img style={{ width: 700 }} className="progress-bar" src="https://miro.medium.com/max/2520/0*A9Ke7sg6rCEq51FG.jpeg" alt="progress bar"/>
+      </Fragment>
+      </div>
+      
+      <MapField />
+
+    
+      </div>
+
+
+      
+    ))}
+      
+      
+      
     </div>
   );
 };

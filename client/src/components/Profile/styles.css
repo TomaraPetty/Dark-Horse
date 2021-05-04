@@ -419,3 +419,8 @@ img {
     background: #ccc;
     margin: 1.5rem 0;
   }
+
+  .progress-bar {
+    width: 75%;
+    height: auto;
+  }
