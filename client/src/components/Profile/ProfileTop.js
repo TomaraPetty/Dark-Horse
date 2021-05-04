@@ -44,7 +44,9 @@ const ProfileTop = () => {
       <div className='profile-about bg-light p-2'>
       <Fragment>
         <h2 className='text-primary'>About</h2>
+
         <p>{profile.about}</p>
+
         <div className='line' />
         <img style={{ width: 700 }} className="progress-bar" src="https://miro.medium.com/max/2520/0*A9Ke7sg6rCEq51FG.jpeg" alt="progress bar"/>
       </Fragment>
