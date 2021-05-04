@@ -3,41 +3,69 @@
         {
             "id": 0,
             "name": "Connector Compass",
-            "img": "https://images.unsplash.com/photo-1569617084133-26942bb441f2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGdyb3VwJTIwb2YlMjBwZW9wbGV8ZW58MHwwfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+            "img": "https://pyxis.nymag.com/v1/imgs/ed8/e95/904cc64feee1e3b9e5e1661b2c3e4027d7-3-beach-bunny.rsquare.w1200.jpg",
             "video": "https://www.youtube.com/watch?v=fzeWc3zh01g",
-            "bio": "Connector Compass is an indie band that rocks hard.",
+            "bio": "",
             "location": "Los Angeles, CA",
-            "about": "We are Connector Compass and we want to come play music for you at your local venue!"
+            "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
         }, {
             "id": 1,
             "name": "Quiet Lion",
-            "img": "https://images.unsplash.com/photo-1511988617509-a57c8a288659?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGdyb3VwJTIwb2YlMjBwZW9wbGV8ZW58MHwwfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
-
+            "img": "https://pyxis.nymag.com/v1/imgs/509/e38/4a53a639418fe50658576fffd792aed987-28-grizzlybears.rsquare.w700.jpg",
+            "video": "",
+            "bio": "",
+            "location": "",
+            "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
         }, {
             "id": 2,
             "name": "Pescado Mejor",
-            "img": "https://images.unsplash.com/photo-1549057446-9f5c6ac91a04?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGdyb3VwJTIwb2YlMjBwZW9wbGV8ZW58MHwwfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+            "img": "https://pyxis.nymag.com/v1/imgs/7c3/1ee/0979c62fb116f863719b5a1ffb47567aaa-23-prinze-george.rsquare.w700.jpg",
+            "video": "",
+            "bio": "",
+            "location": "",
+            "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
         }, {
             "id": 3,
             "name": "A.P.I.",
-            "img": "https://images.unsplash.com/photo-1498661367879-c2085689eed4?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTN8fGdyb3VwJTIwb2YlMjBwZW9wbGV8ZW58MHwwfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+            "img": "https://pyxis.nymag.com/v1/imgs/f4d/004/07763f64ad41dc9255c44c17766a5f3dda-10-grimes.rsquare.w700.jpg",
+            "video": "",
+            "bio": "",
+            "location": "",
+            "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 
         }, {
             "id": 4,
             "name": "The Dirty Tees",
-            "img": "https://images.unsplash.com/photo-1574255155611-e864ecb66c0f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=925&q=80"
+            "img": "https://scenearabia.com/Content/Admin/Uploads/Articles/ArticlesMainPhoto/256/dc562fd9-721f-4909-8ad2-c19b1aa2f3d3.jpeg",
+            "video": "",
+            "bio": "",
+            "location": "",
+            "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+
         }, {
             "id": 5,
             "name": "37,21",
-            "img": "https://images.unsplash.com/photo-1612126752176-52284f4f2851?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTE3fHxncm91cCUyMG9mJTIwcGVvcGxlfGVufDB8MHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+            "img": "https://cdn-asia.uniteasia.org/uploads/2017/02/eleventwelfth-photo-square-b-1024x1024.jpg",
+            "video": "",
+            "bio": "",
+            "location": "",
+            "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
         }, {
             "id": 6,
             "name": "Whisper Wind",
-            "img": "https://images.unsplash.com/photo-1467779009031-53938b78ca38?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGluZGllJTIwYmFuZHxlbnwwfDB8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+            "img": "https://dz8pdz0wfluv5.cloudfront.net/production/bands/avatars/000/010/736/original/V_full_band_square.png?1583171671",
+            "video": "",
+            "bio": "",
+            "location": "",
+            "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
         }, {
             "id": 7,
             "name": "Sunrise Moon",
-            "img": "https://images.unsplash.com/photo-1523897858936-6686b96d0c48?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Z2lybCUyMGdyb3VwfGVufDB8MHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+            "img": "https://music-b26f.kxcdn.com/wp-content/uploads/2017/08/tumblr_inline_o4k5obbJNa1s0xcfm_500.jpg",
+            "video": "",
+            "bio": "",
+            "location": "",
+            "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
         }
     ]  
             

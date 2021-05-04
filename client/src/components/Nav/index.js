@@ -26,6 +26,7 @@ const useStyles = makeStyles((theme) => ({
 export default function ButtonAppBar() {
   const classes = useStyles();
   const [show, setShow] = useState(false);
+
   if (!firebase.auth().currentUser) {
     return (
       <div className={classes.root} id="bg-img">
@@ -93,6 +94,7 @@ export default function ButtonAppBar() {
               </Toolbar>
             </AppBar>
           </div>
+
         </div>
       </div>
     );
