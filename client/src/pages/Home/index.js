@@ -6,6 +6,7 @@ import Wrapper from '../../components/Wrapper';
 import CallingAllBands from '../../components/CallingAllBands';
 import BandCard from '../../components/BandCard';
 import BandInfo from '../../Utils/bands.json';
+import Footer from "../../components/Footer";
 import '../../../src/styles/Home.css';
 
 const Home = () => {
@@ -38,6 +39,7 @@ const Home = () => {
       <h1>Check out these trending campaigns</h1>
       <BandCard />
       <CallingAllBands />
+      <Footer />
     </Wrapper>
   );
 };
