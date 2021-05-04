@@ -31,6 +31,10 @@ const LoginModal = (props) => {
         </button>
         <div id="modal-header">
           <h3>Login</h3>
+          <p className="login-p">
+            Welcome to Dark Horse! Log in to your account to stay notified on
+            your campaigns:
+          </p>
         </div>
         <div className="logins">
           <button className="google" onClick={signInWithGoogle}>
