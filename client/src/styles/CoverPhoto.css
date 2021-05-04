@@ -10,7 +10,7 @@
 
 .container {
     position: relative;
-    text-align: center;
+    /* text-align: center; */
     color: white;
   }
 
@@ -22,4 +22,9 @@
     transform: translate(-50%, -50%);
     background-color: rgba(0, 0, 0, .4);
     padding: 15px;
+    width: 80%;
+  }
+
+  .slogan {
+    font-size: 50px;
   }
