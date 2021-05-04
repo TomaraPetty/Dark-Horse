@@ -55,7 +55,7 @@ class MapField extends Component {
 
     render() {
         return (
-            <div className='profile-about bg-light p-2'>
+            <div>
                 <form>
                     <div className="form-group">
                         <label htmlFor="search">Search:</label>

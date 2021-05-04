@@ -9,6 +9,7 @@ import YouTubeIcon from '@material-ui/icons/YouTube';
 import { grey } from '@material-ui/core/colors';
 import BandInfo from '../../Utils/bands.json';
 import MapField from '../MapField';
+import Box from '@material-ui/core/Box';
 
 const ProfileTop = () => {
   
@@ -41,6 +42,8 @@ const ProfileTop = () => {
         </a>
       </Grid>
 
+      <br/>
+
       <div className='profile-about bg-light p-2'>
       <Fragment>
         <h2 className='text-primary'>About</h2>
@@ -49,17 +52,14 @@ const ProfileTop = () => {
         <img style={{ width: 700 }} className="progress-bar" src="https://miro.medium.com/max/2520/0*A9Ke7sg6rCEq51FG.jpeg" alt="progress bar"/>
       </Fragment>
       </div>
-      
+      <div display="flex" justifyContent="center" className='profile-about bg-light p-2'>
       <MapField />
-
-    
+      
+      </div>
+      <br/><br/>
       </div>
 
-
-      
-    ))}
-      
-      
+    ))}   
       
     </div>
   );
