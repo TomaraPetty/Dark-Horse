@@ -14,7 +14,7 @@
             "img": "https://pyxis.nymag.com/v1/imgs/509/e38/4a53a639418fe50658576fffd792aed987-28-grizzlybears.rsquare.w700.jpg",
             "video": "https://youtube.com/embed/tutZKLeGrCs",
             "bio": "",
-            "location": "",
+            "location": "Portland, OR",
             "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
         }, {
             "id": 2,
@@ -22,7 +22,7 @@
             "img": "https://pyxis.nymag.com/v1/imgs/7c3/1ee/0979c62fb116f863719b5a1ffb47567aaa-23-prinze-george.rsquare.w700.jpg",
             "video": "https://youtube.com/embed/wCqKKpVF3qQ",
             "bio": "",
-            "location": "",
+            "location": "Boston, MA",
             "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
         }, {
             "id": 3,
@@ -30,7 +30,7 @@
             "img": "https://pyxis.nymag.com/v1/imgs/f4d/004/07763f64ad41dc9255c44c17766a5f3dda-10-grimes.rsquare.w700.jpg",
             "video": "https://youtube.com/embed/5rqLNx8Lgj0",
             "bio": "",
-            "location": "",
+            "location": "New York, NY",
             "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 
         }, {
@@ -39,7 +39,7 @@
             "img": "https://scenearabia.com/Content/Admin/Uploads/Articles/ArticlesMainPhoto/256/dc562fd9-721f-4909-8ad2-c19b1aa2f3d3.jpeg",
             "video": "https://youtube.com/embed/Kt-tLuszKBA",
             "bio": "",
-            "location": "",
+            "location": "Austin, TX",
             "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 
         }, {
@@ -48,7 +48,7 @@
             "img": "https://cdn-asia.uniteasia.org/uploads/2017/02/eleventwelfth-photo-square-b-1024x1024.jpg",
             "video": "https://youtube.com/embed/6bUGvgjU7SI",
             "bio": "",
-            "location": "",
+            "location": "Irvine, CA",
             "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
         }, {
             "id": 6,
@@ -56,7 +56,7 @@
             "img": "https://dz8pdz0wfluv5.cloudfront.net/production/bands/avatars/000/010/736/original/V_full_band_square.png?1583171671",
             "video": "https://youtube.com/embed/ilSvLG2dHTE",
             "bio": "",
-            "location": "",
+            "location": "Nashville, TN",
             "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
         }, {
             "id": 7,
@@ -64,7 +64,7 @@
             "img": "https://music-b26f.kxcdn.com/wp-content/uploads/2017/08/tumblr_inline_o4k5obbJNa1s0xcfm_500.jpg",
             "video": "https://youtube.com/embed/8HnLRrQ3RS4",
             "bio": "",
-            "location": "",
+            "location": "Joshua Tree, CA",
             "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
         }
     ]  
