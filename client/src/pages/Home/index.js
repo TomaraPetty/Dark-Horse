@@ -23,6 +23,10 @@ const Home = () => {
     });
   };
 
+  // const handleBandProfile = (id) => {
+  //   if(id.key === 'Enter')
+  // }
+
   // const handleKeyPress = (event) => {
   //     if(event.key === 'Enter') {
 

@@ -38,8 +38,8 @@ export default function ButtonAppBar() {
                 color="inherit"
                 aria-label="menu"
               ></IconButton>
-              <Typography variant="h6" className={classes.title} id="brandtitle">
-                Dark Horse
+              <Typography variant="h6" className={classes.title} >
+              <Button id="brandtitle" onClick={event =>  window.location.href='/'}>Dark Horse</Button>
               </Typography>
               <Button onClick={() => setShow(true)} color="inherit">
                 Login
