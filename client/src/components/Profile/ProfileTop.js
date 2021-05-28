@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useState, useEffect } from "react";
 import "./styles.css";
 import Grid from '@material-ui/core/Grid';
 import LanguageIcon from '@material-ui/icons/Language';
@@ -7,17 +7,32 @@ import InstagramIcon from '@material-ui/icons/Instagram';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import YouTubeIcon from '@material-ui/icons/YouTube';
 import { grey } from '@material-ui/core/colors';
-import BandInfo from '../../Utils/bands.json';
+import BandAPI from '../../Utils/bandApi';
 import MapField from '../MapField';
 import Box from '@material-ui/core/Box';
 
 const ProfileTop = () => {
 
+  const [bands, setBands] = useState([]);
+  // Load all bands and store them with setBands
+  useEffect(() => {
+    loadBands();
+  }, []);
+  // Loads all bands and sets them to bands
+  function loadBands() {
+    BandAPI.getBands()
+      .then(res => {
+        setBands(res.data);
+      })
+      .catch(err => console.log(err));
+  }
+
+
   return (
     <div className="profile-top bg-primary p-2">
-    {BandInfo.map((profile) => (
+    {bands.map((profile) => (
       <div>
-      <img className="round-img my-1" src={profile.img} alt={profile.name} />
+      <img className="round-img my-1" src={profile.image} alt={profile.name} />
       <h1 className="large">{profile.name}</h1>
       <p className="lead">Cast your vote to bring {profile.name} to YOU!</p>
       <p>{profile.location}</p>
