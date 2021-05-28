@@ -7,12 +7,27 @@ const bandSchema = new Schema({
         trim: true
     },
 
-    descrption: {
+    image: {
         type: String,
         trim: true
     },
 
-    image: {
+    video: {
+        type: String,
+        trim: true
+    },
+
+    bio: {
+        type: String,
+        trim: true
+    },
+
+    location: {
+        type: String,
+        trim: true
+    },
+
+    about: {
         type: String
     }
 })
