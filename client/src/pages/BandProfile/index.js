@@ -8,7 +8,6 @@ const BandProfile = () => {
   return (
     <Wrapper>
       <ProfileTop />
-      <MapField />
     </Wrapper>
   );
 };
