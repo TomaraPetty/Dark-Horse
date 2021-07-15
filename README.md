@@ -36,7 +36,7 @@ npm start
 
 ## Usage
 *Instructions and examples for use:* 
-* Everything starts at the homepage. A new user is able to visit the home page and see all of the bands. If the user would like to participate in a campaign by "checking-in" on a band's map then the user will need to login.  
+* A new user is able to visit the home page and see all of the bands. If the user would like to participate in a campaign by "checking-in" on a band's map then the user will need to login.  
 1. Home page:
     1. The home page features a list of bands that have live campaigns. 
     2. Below the campaigns is a section for bands to encourage them to sign up.  
@@ -45,7 +45,7 @@ npm start
     2. On the band page you will also see a map that shows locations of fan check-ins. 
     3. In the future there will be functionality for the fan to buy a preliminary pre-sale ticket for thier city. 
 
-<img src="./client/public/images/LaurasPage.gif">
+<img src="DarkHorse.gif">
 
 ## License 
 * Built under the MIT licence.
