@@ -1,70 +1,91 @@
-# Getting Started with Create React App
+# Dark Horse
+  
+![GitHub](https://img.shields.io/badge/license-MIT-green)
 
-Click here to see the application: https://darkhorsetours.herokuapp.com/
+<a href="https://darkhorsetours.herokuapp.com/">Click here to see it in action.</a>
 
-## Available Scripts
+## Table of Contents
+* [Description](#description)
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Contributions](#contributions)
+* [Tests](#tests)
+* [Questions](#questions)
 
-In the project directory, you can run:
+## Description 
+*Overview of this project:* <br>
+Dark Horse is an app that allows bands to see the location of their fans. Fans will be asked to check in on a map so that artists can then see what cities they have the most fans in. After the cities are located the bands can use this information to help them to map out a successful tour. 
 
-### `npm start`
+## Future Functionality
+Bands will be able to crowdfund ticket sales in advance of a tour to make sure it will be a viable tour before they head out on the road. 
+* Shows will go on a preliminary pre-sale that is only confirmed after they reach the ticket threashold. 
+* When a fan buys a preliminary pre-sale ticket, a temporary hold will be placed on a fans credit card. 
+* If the city reaches the ticket threshold needed to book the date then the show will be confirmed and all holds on credit cards will be charged.
+* If the ticket threshold is never reached then the date will be canceled and all holds will be removed from credit cards. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Installation
+*Steps required to install project and get the development environment established:*
+* Simply use the npm install command in your terminal to install all necessary packages to launch Laura's website application!
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+```bash
+npm install
+npm run seed
+npm start
+```
 
-### `npm test`
+## Usage
+*Instructions and examples for use:* 
+* Everything starts at the homepage. A new user is able to visit the home page and see all of the bands. If the user would like to participate in a campaign by "checking-in" on a band's map then the user will need to login.  
+1. Home page:
+    1. The home page features a list of bands that have live campaigns. 
+    2. Below the campaigns is a section for bands to encourage them to sign up.  
+2. Band pages:
+    1. When the user clicks on a band from the home page they will be taken to the band's profile page. This page gives a summary of the band and what they are trying to achive.
+    2. On the band page you will also see a map that shows locations of fan check-ins. 
+    3. In the future there will be functionality for the fan to buy a preliminary pre-sale ticket for thier city. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<img src="./client/public/images/LaurasPage.gif">
 
-### `npm run build`
+## License 
+* Built under the MIT licence.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Credits
+* Built & designed by Lili Cohen, Kat Nguyen, Tomara Petty, and Ellis Delgado.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Test
+* No tests required. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Questions?
+<p float="left">
+<img src="https://avatars0.githubusercontent.com/u/65513543?s=460&u=20bf726727263d5c2cb42b357ae261aff2a38e6e&v=4" alt="GitHub profile image" width="150">
+<img src="https://avatars.githubusercontent.com/u/69019881?s=460&u=6854268124a5fbb368c638a74662e170b27b5e15&v=4" alt="GitHub profile image" width="150">
+<img src="https://avatars.githubusercontent.com/u/70539107?s=460&u=19c6e1600b5f4d010ab5ab4f3527e2dcf96a1b2f&v=4" alt="GitHub profile image" width="150">
+<img src="https://avatars.githubusercontent.com/u/71291602?s=460&u=0a57edde8d1542a08429d187f505e985f42d434b&v=4" alt="GitHub profile image" width="150">
+<img src="https://avatars.githubusercontent.com/u/70980600?v=4" alt="GitHub profile image" width="150">
+</p>
+<br>
 
-### `npm run eject`
+#### If you have any questions or want to make a contribution please reach out to us here:
+<br>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+**GitHub:**  
+* @lilipcohen 
+* @markos-escalante 
+* @tomarapetty
+* @katnguyenn 
+* @ellisd16 <br>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Email:** 
+* nguyenkat01@yahoo.com
+* tomararuth@gmail.com 
+* lili.cohen.tv@gmail.com 
+* escalante.markos18@gmail.com <br>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+**LinkedIn:** 
+* Tomara: https://www.linkedin.com/in/tomara-petty/ 
+* Lili: http://www.linkedin.com/in/lili-cohen-78a93a1b3 
+* Kat: https://www.linkedin.com/in/katherine-nguyen-205a7b13a/ 
+* Markos: https://www.linkedin.com/feed/
+* Ellis: https://github.com/Ellisd16
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
